@@ -1,12 +1,12 @@
 ---
 layout: home
 
-title: Vivce
+title: Vivce-Interview
 
 hero:
-  name: Vivace
-  text: Knowledge of front end
-  tagline: JavaScript, CSS, Vue, React, WebPack, Vim, Docker, Interview Code.
+  name: Vivace-Interview
+  text: Knowledge of Interview
+  tagline: JavaScript, ES6,  CSS, Vue2, Vue3, React, WebPack, Git, Http, NodeJs, algorithm.
   actions:
     - theme: brand
       text: Get Started
