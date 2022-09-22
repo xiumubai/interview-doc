@@ -8,37 +8,3 @@ export default function sidebarCSS() {
   ]
 }
 
-const list = [
-  ["css/box", "说说你对盒子模型的理解?"],
-  ["css/selector", "css选择器有哪些？优先级？哪些属性可以继承？"],
-  ["css/em_px_rem_vh_vw", "说说em/px/rem/vh/vw区别?"],
-  ["css/dp_px_dpr_ppi", "说说设备像素、css像素、设备独立像素、dpr、ppi 之间的区别？"],
-  ["css/hide_attributes", "css中，有哪些方式可以隐藏页面元素？区别?"],
-  ["css/BFC", "谈谈你对BFC的理解？"],
-  ["css/center", "元素水平垂直居中的方法有哪些？如果元素不定宽高呢？"],
-  ["css/column_layout", "如何实现两栏布局，右侧自适应？三栏布局中间自适应呢？"],
-  ["css/flexbox", "说说flexbox（弹性盒布局模型）,以及适用场景？"],
-  ["css/grid", "介绍一下grid网格布局"],
-  ["css/css3_features", "CSS3新增了哪些新特性？"],
-  ["css/animation", "css3动画有哪些？"],
-  ["css/layout_painting", "怎么理解回流跟重绘？什么场景下会触发？"],
-  ["css/responsive_layout", "什么是响应式设计？响应式设计的基本原理是什么？如何做？"],
-  ["css/css_performance", "如果要做优化，CSS提高性能的方法有哪些？"],
-  ["css/single_multi_line", "如何实现单行／多行文本溢出的省略样式？"],
-  ["css/visual_scrolling", "如何使用css完成视差滚动效果?"],
-  ["css/triangle", "CSS如何画一个三角形？原理是什么？"],
-  ["css/less_12px", "让Chrome支持小于12px 的文字方式有哪些？区别？"],
-  ["css/sass_less_stylus", "说说对Css预编语言的理解？有哪些区别?"],
-]
-
-function tranvers(r) {
-  const l = r.map((item, index) => {
-    return {
-      link: `/${item[0]}`,
-      text: `${index + 1}.${item[1]}`
-    }
-  })
-  return l;
-}
-
-console.log(JSON.stringify(tranvers(list)));
