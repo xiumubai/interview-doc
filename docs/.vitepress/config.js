@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-22 20:49:25
+ * @LastEditTime: 2022-09-22 21:03:52
  * @Description:
  */
 
@@ -13,6 +13,8 @@ import sidebarVue from './sidebar/vue.js';
 import sidebarVue3 from './sidebar/vue3.js';
 import sidebarReact from './sidebar/react.js';
 import sidebarWebpack from './sidebar/webpack.js';
+import sidebarHttp from './sidebar/http.js';
+import sidebarNode from './sidebar/node.js';
 
 module.exports = {
   title: 'vivace-itnerview',
@@ -80,6 +82,14 @@ module.exports = {
       {
         text: "webpack",
         link: '/webpack/webpack',
+      },
+      {
+        text: "http",
+        link: '/http/HTTP_HTTPS',
+      },
+      {
+        text: "node",
+        link: '/NodeJS/nodejs',
       }
     ],
     sidebar: {
@@ -90,6 +100,8 @@ module.exports = {
       '/vue3/': sidebarVue3(),
       '/React/': sidebarReact(),
       '/webpack/': sidebarWebpack(),
+      '/http/': sidebarHttp(),
+      '/NodeJS/': sidebarNode(),
     },
   },
 };

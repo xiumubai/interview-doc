@@ -160,6 +160,41 @@ const webpack = [
   ["webpack/improve_build", "如何提高webpack的构建速度？"],
   ["webpack/Rollup_Parcel_snowpack_Vite", "与webpack类似的工具还有哪些？区别？"],
 ]
+
+
+const http = [
+  ["http/HTTP_HTTPS", "什么是HTTP? HTTP 和 HTTPS 的区别?"],
+  ["http/HTTPS", "为什么说HTTPS比HTTP安全? HTTPS是如何保证安全的？"],
+  ["http/UDP_TCP", "如何理解UDP 和 TCP? 区别? 应用场景?"],
+  ["http/OSI", "如何理解OSI七层模型?"],
+  ["http/TCP_IP", "如何理解TCP/IP协议?"],
+  ["http/DNS", "DNS协议 是什么？说说DNS 完整的查询过程?"],
+  ["http/CDN", "如何理解CDN？说说实现原理？"],
+  ["http/1.0_1.1_2.0", "说说 HTTP1.0/1.1/2.0 的区别?"],
+  ["http/status", "说说 HTTP 常见的状态码有哪些，适用场景？"],
+  ["http/GET_POST", "说一下 GET 和 POST 的区别？"],
+  ["http/headers", "说说 HTTP 常见的请求头有哪些? 作用？"],
+  ["http/after_url", "说说地址栏输入 URL 敲下回车后发生了什么？"],
+  ["http/handshakes_waves", "说说TCP为什么需要三次握手和四次挥手？"],
+  ["http/WebSocket", "说说对WebSocket的理解？应用场景？"]
+]
+
+const node = [
+  ["NodeJS/nodejs", "说说你对 Node.js 的理解？优缺点？应用场景？"],
+  ["NodeJS/global", "说说 Node.js 有哪些全局对象？"],
+  ["NodeJS/process", "说说对 Node 中的 process 的理解？有哪些常用方法？"],
+  ["NodeJS/fs", "说说对 Node 中的 fs模块的理解? 有哪些常用方法"],
+  ["NodeJS/Buffer", "说说对 Node 中的 Buffer 的理解？应用场景？"],
+  ["NodeJS/Stream", "说说对 Node 中的 Stream 的理解？应用场景？"],
+  ["NodeJS/EventEmitter", "说说Node中的EventEmitter? 如何实现一个EventEmitter?"],
+  ["NodeJS/event_loop", "说说对 Nodejs 中的事件循环机制理解?"],
+  ["NodeJS/require_order", "说说 Node 文件查找的优先级以及 Require 方法的文件查找策略?"],
+  ["NodeJS/middleware", "说说对中间件概念的理解，如何封装 node 中间件？"],
+  ["NodeJS/jwt", "如何实现jwt鉴权机制？说说你的思路"],
+  ["NodeJS/file_upload", "如何实现文件上传？说说你的思路"],
+  ["NodeJS/paging", "如果让你来设计一个分页功能, 你会怎么设计? 前后端如何交互?"],
+  ["NodeJS/performance", "Node性能如何进行监控以及优化？"],
+]
 function tranvers(r) {
   const l = r.map((item, index) => {
     return {
@@ -170,4 +205,4 @@ function tranvers(r) {
   return l;
 }
 
-console.log(JSON.stringify(tranvers(webpack)));
+console.log(JSON.stringify(tranvers(node)));
