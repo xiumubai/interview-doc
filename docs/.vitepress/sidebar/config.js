@@ -148,6 +148,18 @@ const react = [
   ["React/summary", "说说你在使用React 过程中遇到的常见问题？如何解决?"]
 ]
 
+const webpack = [
+  ["webpack/webpack", "说说你对webpack的理解？解决了什么问题？"],
+  ["webpack/build_process", "说说webpack的构建流程?"],
+  ["webpack/Loader", "说说webpack中常见的Loader？解决了什么问题？"],
+  ["webpack/Plugin", "说说webpack中常见的Plugin？解决了什么问题？"],
+  ["webpack/Loader_Plugin", "说说Loader和Plugin的区别？编写Loader，Plugin的思路？"],
+  ["webpack/HMR", "说说webpack的热更新是如何做到的？原理是什么？"],
+  ["webpack/proxy", "说说webpack proxy工作原理？为什么能解决跨域?"],
+  ["webpack/performance", "说说如何借助webpack来优化前端性能？"],
+  ["webpack/improve_build", "如何提高webpack的构建速度？"],
+  ["webpack/Rollup_Parcel_snowpack_Vite", "与webpack类似的工具还有哪些？区别？"],
+]
 function tranvers(r) {
   const l = r.map((item, index) => {
     return {
@@ -158,4 +170,4 @@ function tranvers(r) {
   return l;
 }
 
-console.log(JSON.stringify(tranvers(react)));
+console.log(JSON.stringify(tranvers(webpack)));

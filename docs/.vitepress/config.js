@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-22 18:12:45
+ * @LastEditTime: 2022-09-22 19:30:31
  * @Description:
  */
 
@@ -12,6 +12,7 @@ import sidebarES6 from './sidebar/es.js';
 import sidebarVue from './sidebar/vue.js';
 import sidebarVue3 from './sidebar/vue3.js';
 import sidebarReact from './sidebar/react.js';
+import sidebarWebpack from './sidebar/webpack.js';
 
 module.exports = {
   title: 'vivace-itnerview',
@@ -68,8 +69,8 @@ module.exports = {
         link: '/React/React',
       },
       {
-        text: "es6",
-        link: '/es6/var_let_const',
+        text: "webpack",
+        link: '/webpack/webpack',
       }
     ],
     sidebar: {
@@ -79,6 +80,7 @@ module.exports = {
       '/vue/': sidebarVue(),
       '/vue3/': sidebarVue3(),
       '/React/': sidebarReact(),
+      '/webpack/': sidebarWebpack(),
     },
   },
 };
