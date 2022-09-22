@@ -158,4 +158,4 @@ function tranvers(r) {
   return l;
 }
 
-console.log(JSON.stringify(tranvers(vue3)));
+console.log(JSON.stringify(tranvers(react)));
