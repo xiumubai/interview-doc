@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-22 19:30:31
+ * @LastEditTime: 2022-09-22 20:49:25
  * @Description:
  */
 
@@ -42,6 +42,15 @@ module.exports = {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present xiumubai',
     },
+    algolia: {
+      indexName: 'vuejs',
+      appId: 'ML0LEBN7FQ',
+      apiKey: 'f49cbd92a74532cc55cfbffa5e5a7d01',
+      searchParameters: {
+        facetFilters: ['version:v3']
+      }
+    },
+
     nav: [
       {
         text: 'CSS',
