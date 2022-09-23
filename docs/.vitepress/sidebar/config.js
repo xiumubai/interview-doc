@@ -231,6 +231,30 @@ const algorithm = [
   ["algorithm/design1", "说说说你对分而治之、动态规划的理解？区别？"],
   ["algorithm/design2", "说说你对贪心算法、回溯算法的理解？应用场景？"],
 ]
+
+const applet = [
+  ["applet/applet", "说说你对微信小程序的理解？优缺点？"],
+  ["applet/lifecycle", "说说微信小程序的生命周期函数有哪些？"],
+  ["applet/navigate", "说说微信小程序中路由跳转的方式有哪些？区别？"],
+  ["applet/optimization", "说说提高微信小程序的应用速度的手段有哪些？"],
+  ["applet/login", "说说微信小程序的登录流程？"],
+  ["applet/publish", "说说微信小程序的发布流程？"],
+  ["applet/requestPayment", "说说微信小程序的支付流程？"],
+  ["applet/WebView_jscore", "说说微信小程序的实现原理？"],
+]
+
+const git = [
+  ["git/Version control", "说说你对版本管理的理解？常用的版本管理工具有哪些？"],
+  ["git/Git", "说说你对Git的理解？"],
+  ["git/fork_clone_branch", "说说Git中 fork, clone,branch这三个概念，有什么区别?"],
+  ["git/command", "说说Git常用的命令有哪些？"],
+  ["git/HEAD_tree_index", "说说Git 中 HEAD、工作树和索引之间的区别？"],
+  ["git/git pull _git fetch", "说说对git pull 和 git fetch 的理解？有什么区别？"],
+  ["git/git stash", "说说你对git stash 的理解？应用场景？"],
+  ["git/git rebase_ git merge", "说说你对git rebase 和 git merge的理解？区别？"],
+  ["git/conflict", "说说 git 发生冲突的场景？如何解决？"],
+  ["git/git reset_ git revert", "说说你对git reset 和 git revert 的理解？区别？"],
+]
 function tranvers(r) {
   const l = r.map((item, index) => {
     return {
@@ -241,4 +265,4 @@ function tranvers(r) {
   return l;
 }
 
-console.log(JSON.stringify(tranvers(algorithm)));
+JSON.stringify(tranvers(git));

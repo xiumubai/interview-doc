@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-23 09:05:27
+ * @LastEditTime: 2022-09-23 09:56:09
  * @Description:
  */
 
@@ -17,6 +17,8 @@ import sidebarHttp from './sidebar/http.js';
 import sidebarNode from './sidebar/node.js';
 import sidebarTs from './sidebar/typescript.js';
 import sidebarAlgorithm from './sidebar/algorithm.js';
+import sidebarApplet from './sidebar/applet.js';
+import sidebarGit from './sidebar/git.js';
 
 module.exports = {
   title: 'vivace-itnerview',
@@ -100,7 +102,15 @@ module.exports = {
       {
         text: "Algorithm",
         link: '/algorithm/Algorithm',
-      }
+      },
+      {
+        text: "小程序",
+        link: '/applet/applet',
+      },
+      {
+        text: "Git",
+        link: '/git/git',
+      },
     ],
     sidebar: {
       '/css/': sidebarCSS(),
@@ -114,6 +124,8 @@ module.exports = {
       '/NodeJS/': sidebarNode(),
       '/typescript/': sidebarTs(),
       '/algorithm/': sidebarAlgorithm(),
+      '/applet/': sidebarApplet(),
+      '/git/': sidebarGit(),
     },
   },
 };
