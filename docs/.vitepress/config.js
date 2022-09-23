@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-23 09:56:09
+ * @LastEditTime: 2022-09-23 10:15:07
  * @Description:
  */
 
@@ -65,40 +65,48 @@ module.exports = {
       },
       {
         text: "JavaScript",
-        link: '/JavaScript/data_type',
+        items: [
+          {
+            text: "JavaScript",
+            link: '/JavaScript/data_type',
+          },
+          {
+            text: "es6",
+            link: '/es6/var_let_const',
+          },
+          {
+            text: "Typescript",
+            link: '/typescript/typescript_javascript',
+          },
+        ]
       },
       {
-        text: "es6",
-        link: '/es6/var_let_const',
+        text: "框架",
+        items: [
+          {
+            text: "Vue",
+            link: '/vue/vue',
+          },
+          {
+            text: "Vue3",
+            link: '/vue3/goal',
+          },
+          {
+            text: "React",
+            link: '/React/React',
+          },
+          {
+            text: "webpack",
+            link: '/webpack/webpack',
+          },
+        ]
       },
-      {
-        text: "Vue",
-        link: '/vue/vue',
-      },
-      {
-        text: "Vue3",
-        link: '/vue3/goal',
-      },
-      {
-        text: "React",
-        link: '/React/React',
-      },
-      {
-        text: "webpack",
-        link: '/webpack/webpack',
-      },
-      {
-        text: "http",
-        link: '/http/HTTP_HTTPS',
-      },
+
       {
         text: "node",
         link: '/NodeJS/nodejs',
       },
-      {
-        text: "Typescript",
-        link: '/typescript/typescript_javascript',
-      },
+
       {
         text: "Algorithm",
         link: '/algorithm/Algorithm',
@@ -106,6 +114,10 @@ module.exports = {
       {
         text: "小程序",
         link: '/applet/applet',
+      },
+      {
+        text: "http",
+        link: '/http/HTTP_HTTPS',
       },
       {
         text: "Git",
