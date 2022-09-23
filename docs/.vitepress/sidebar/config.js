@@ -210,6 +210,27 @@ const ts = [
   ["typescript/react", "说说如何在 React 项目中应用 TypeScript？"],
   ["typescript/vue", "说说如何在Vue项目中应用TypeScript？"]
 ]
+
+const algorithm = [
+  ["algorithm/Algorithm", "说说你对算法的理解？应用场景？"],
+  ["algorithm/time_space", "说说你对算法中时间复杂度，空间复杂度的理解？如何计算？"],
+  ["algorithm/structure", "说说你对数据结构的理解？有哪些？区别？"],
+  ["algorithm/stack_queue", "说说你对栈、队列的理解？应用场景？"],
+  ["algorithm/Linked List", "说说你对链表的理解？常见的操作有哪些？"],
+  ["algorithm/set", "说说你对集合的理解？常见的操作有哪些？"],
+  ["algorithm/tree", "说说你对树的理解？相关的操作有哪些？"],
+  ["algorithm/Heap", "说说你对堆的理解？如何实现？应用场景？"],
+  ["algorithm/graph", "说说你对图的理解？相关操作有哪些？"],
+  ["algorithm/sort", "说说常见的排序算法有哪些？区别？"],
+  ["algorithm/bubbleSort", "说说你对冒泡排序的理解？如何实现？应用场景？"],
+  ["algorithm/selectionSort", "说说你对选择排序的理解？如何实现？应用场景？"],
+  ["algorithm/insertionSort", "说说你对插入排序的理解？如何实现？应用场景？"],
+  ["algorithm/mergeSort", "说说你对归并排序的理解？如何实现？应用场景？"],
+  ["algorithm/quickSort", "说说你对快速排序的理解？如何实现？应用场景？"],
+  ["algorithm/BinarySearch", "说说你对二分查找的理解？如何实现？应用场景？"],
+  ["algorithm/design1", "说说说你对分而治之、动态规划的理解？区别？"],
+  ["algorithm/design2", "说说你对贪心算法、回溯算法的理解？应用场景？"],
+]
 function tranvers(r) {
   const l = r.map((item, index) => {
     return {
@@ -220,4 +241,4 @@ function tranvers(r) {
   return l;
 }
 
-console.log(JSON.stringify(tranvers(ts)));
+console.log(JSON.stringify(tranvers(algorithm)));
